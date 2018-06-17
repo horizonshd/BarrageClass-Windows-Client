@@ -1,0 +1,15 @@
+﻿<Window x:Name="renderWindow" x:Class="BarrageClass.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarrageClass"
+        mc:Ignorable="d"
+        Title="BarrageClass" Height="1080" Width="1920" AllowsTransparency="True" WindowStyle="None" Background="#01FFFFFF" Foreground="Black" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" MouseEnter="renderWindow_MouseEnter" MouseLeave="renderWindow_MouseLeave" MouseLeftButtonDown="renderWindow_MouseLeftButtonDown" KeyDown="renderWindow_KeyDown" Closing="renderWindow_Closing" >
+
+   
+    <Canvas x:Name="barrageRender">
+        <Border x:Name="visualBorder" Width="1920" Height="1080"/>
+    </Canvas>
+
+</Window>
